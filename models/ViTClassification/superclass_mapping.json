@@ -1,0 +1,8 @@
+{
+  "joy": "Positive",
+  "anger": "NegativeActive",
+  "fear": "NegativeActive",
+  "surprise": "NegativeActive",
+  "sadness": "NegativePassive",
+  "Natural": "Positive"
+}
