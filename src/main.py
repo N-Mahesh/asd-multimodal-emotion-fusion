@@ -17,6 +17,9 @@ from verbal_inference import emotion2vec_bundle
 
 from nonverbal_inference import NonverbalAudioEmotionClassifier
 
+from VAD_utils import VAD
+
+vad = VAD()
 
 non_verbal_inference = NonverbalAudioEmotionClassifier()
 
@@ -73,8 +76,10 @@ while True:
             .run()
         )
 
-        context["nonverbal_branch"] = non_verbal_inference.predict("output.wav")
-        context["verbal_branch"] = verbal_inference.inference("output.wav")
+        # If VAD returns True
+        if vad.inference("output.wav"):
+            context["nonverbal_branch"] = non_verbal_inference.predict("output.wav")
+            context["verbal_branch"] = verbal_inference.inference("output.wav")
 
     current_frame += 1
 
