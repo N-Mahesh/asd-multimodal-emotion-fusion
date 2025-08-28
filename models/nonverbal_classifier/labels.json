@@ -1,0 +1,13 @@
+{
+  "dysregulation-sick": 0,
+  "frustrated": 1,
+  "dysregulated": 2,
+  "social": 3,
+  "selftalk": 4,
+  "request": 5,
+  "delighted": 6,
+  "laughter": 7,
+  "affectionate": 8,
+  "happy": 9,
+  "yes": 10
+}
