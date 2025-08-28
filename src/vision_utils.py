@@ -151,7 +151,7 @@ Zone 1 (Neutral/Content/Happy):positive, neutral, joyful. Examples: relaxed, hap
 
 Zone 2 (High-Arousal Negative or Unsure): Angry, surprised.
 
-Zone 3 (Low-Arousal Negative): sad, dysregulated states.
+Zone 3 (Low-Arousal Negative): sad, unresponsive states.
 
 Your job is not just to pick the most probable zone, but to reason through all evidence, weigh the reliability of each branch, and provide both:
 
